@@ -35,6 +35,9 @@ TARGET_BOARD_PLATFORM := kona
 TARGET_BOOTLOADER_BOARD_NAME := kona
 TARGET_NO_BOOTLOADER := true
 
+# Bluetooth
+TARGET_USE_QTI_BT_STACK := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xa90000 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom 
