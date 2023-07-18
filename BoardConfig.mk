@@ -1,8 +1,18 @@
-# Inherit from the proprietary version
-include vendor/lenovo/misaka/BoardConfigVendor.mk
+
+# Copyright (C) 2022 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
 
 DEVICE_PATH := device/lenovo/misaka
-TARGET_BOARD_PLATFORM := kona
+
+# AVB
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+BOARD_AVB_RECOVERY_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem
+BOARD_AVB_RECOVERY_ALGORITHM := SHA256_RSA4096
+BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
+BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Architecture
 TARGET_ARCH := arm64
@@ -18,6 +28,8 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a9
+
+TARGET_BOARD_PLATFORM := kona
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := kona
@@ -78,4 +90,7 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
+
+# Inherit from the proprietary version
+include vendor/lenovo/misaka/BoardConfigVendor.mk
 

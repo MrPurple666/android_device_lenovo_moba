@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=X01AD
-VENDOR=asus
+DEVICE=misaka
+VENDOR=lenovo
 
 INITIAL_COPYRIGHT_YEAR=2020
 

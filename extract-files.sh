@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=X01AD
-VENDOR=asus
+DEVICE=misaka
+VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
