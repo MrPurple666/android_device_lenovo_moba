@@ -25,4 +25,11 @@ persist.vendor.data.mode=concurrent
 persist.vendor.sensors.enable.mag_filter=true
 
 # Telephony
-ro.telephony.default_network=33,33
+ro.telephony.default_network=33,33 
+
+persist.sys.usb.config=none
+
+ro.telephony.sim_slots.count=2
+
+telephony.active_modems.max_count=2
+
