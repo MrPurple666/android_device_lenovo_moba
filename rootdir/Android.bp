@@ -261,3 +261,9 @@ prebuilt_etc {
     src: "etc/fstab.qcom",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "fstab.qcom_ramdisk",
+    src: "etc/fstab.qcom",
+    vendor: true,
+}

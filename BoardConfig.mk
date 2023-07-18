@@ -117,6 +117,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
 
+# Misc
+BOARD_BUILD_VENDOR_RAMDISK_IMAGE := true
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
