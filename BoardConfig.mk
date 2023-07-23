@@ -123,6 +123,8 @@ BOARD_BUILD_VENDOR_RAMDISK_IMAGE := true
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
+# selinux permissive for testing 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Inherit from the proprietary version
 include vendor/lenovo/misaka/BoardConfigVendor.mk
