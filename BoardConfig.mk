@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BOARD_VENDOR := lenovo
+
 DEVICE_PATH := device/lenovo/misaka
 
 # AVB
@@ -29,7 +31,12 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a9
 
+# Platform
 TARGET_BOARD_PLATFORM := kona
+BOARD_USES_QCOM_HARDWARE := true
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := moba,misaka
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := kona
