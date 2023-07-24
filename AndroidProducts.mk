@@ -1,5 +1,5 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/lineage_misaka.mk
+	$(LOCAL_DIR)/lineage_moba.mk
 
 COMMON_LUNCH_CHOICES := \
-    $(foreach variant, user userdebug eng, lineage_misaka-$(variant))
+    $(foreach variant, user userdebug eng, lineage_moba-$(variant))

@@ -6,7 +6,7 @@
 
 BOARD_VENDOR := lenovo
 
-DEVICE_PATH := device/lenovo/misaka
+DEVICE_PATH := device/lenovo/moba
 
 # AVB
 BOARD_AVB_ENABLE := true
@@ -36,7 +36,7 @@ TARGET_BOARD_PLATFORM := kona
 BOARD_USES_QCOM_HARDWARE := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := moba,misaka
+TARGET_OTA_ASSERT_DEVICE := moba
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := kona
@@ -68,8 +68,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 
 BOARD_RAMDISK_OFFSET := 0x01000000
 
-TARGET_KERNEL_CONFIG := misaka_defcofig
-TARGET_KERNEL_SOURCE := kernel/lenovo/misaka
+TARGET_KERNEL_CONFIG := moba_defcofig
+TARGET_KERNEL_SOURCE := kernel/lenovo/moba
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -134,5 +134,5 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Inherit from the proprietary version
-include vendor/lenovo/misaka/BoardConfigVendor.mk
+include vendor/lenovo/moba/BoardConfigVendor.mk
 

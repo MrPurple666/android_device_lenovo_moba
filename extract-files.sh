@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=misaka
+DEVICE=moba
 VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks

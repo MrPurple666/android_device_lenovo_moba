@@ -1,4 +1,4 @@
-# Unpinned blobs from misaka-user 12 SKQ1.220119.001 13.5.351_221103 release-keys
+# Unpinned blobs from moba-user 12 SKQ1.220119.001 13.5.351_221103 release-keys
 
 # ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb

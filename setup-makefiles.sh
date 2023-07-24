@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=misaka
+DEVICE=moba
 VENDOR=lenovo
 
 INITIAL_COPYRIGHT_YEAR=2020
