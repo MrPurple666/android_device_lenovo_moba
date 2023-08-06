@@ -48,7 +48,7 @@ vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Alarm
-product/app/PowerOffAlarm/PowerOffAlarm.apk
+-product/app/PowerOffAlarm/PowerOffAlarm.apk
 system_ext/lib/vendor.qti.hardware.alarm@1.0.so
 system_ext/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
@@ -70,7 +70,7 @@ vendor/lib64/com.dsi.ant@1.0.so
 # Atrace
 vendor/bin/hw/android.hardware.atrace@1.0-service
 vendor/etc/init/android.hardware.atrace@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
+-vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
 
 # Audio
 system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
@@ -771,7 +771,7 @@ vendor/etc/camera/vidhance_calibration
 # CAS
 vendor/bin/hw/android.hardware.cas@1.2-service
 vendor/etc/init/android.hardware.cas@1.2-service.rc
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml
+-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -780,12 +780,12 @@ vendor/lib/libOpenCL.so
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libfastcvdsp_stub.so
-vendor/lib/libfastcvopt.so
+-vendor/lib/libfastcvopt.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastcvdsp_stub.so
-vendor/lib64/libfastcvopt.so
+-vendor/lib64/libfastcvopt.so
 
 # Charger
 vendor/bin/hvdcp_opti
@@ -868,7 +868,7 @@ system_ext/lib64/vendor.qti.hardware.slmadapter@1.0.so
 system_ext/lib64/vendor.qti.latency@2.0.so
 system_ext/lib64/vendor.qti.latency@2.1.so
 vendor/app/CneApp/lib/arm64/libvndfwk_detect_jni.qti.so
-vendor/app/CneApp/CneApp.apk
+-vendor/app/CneApp/CneApp.apk
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -1043,7 +1043,7 @@ vendor/etc/init/android.hardware.memtrack@1.0-service.rc
 vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
 vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
-vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
+-vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -1322,7 +1322,7 @@ vendor/etc/init/android.hardware.biometrics.face@1.0-service.rc
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
+-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/hw/fingerprint.default.so
 vendor/lib64/libgf_hal.so
@@ -1353,7 +1353,7 @@ vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
 vendor/lib/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib/libasn1cper.so
@@ -1427,7 +1427,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 # Health
 vendor/bin/hw/android.hardware.health@2.1-service
 vendor/etc/init/android.hardware.health@2.1-service.rc
-vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
+-vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
 
 # IPA
 vendor/bin/ipacm-diag
@@ -1464,7 +1464,7 @@ vendor/lib64/libqtikeymaster4.so
 # Light
 vendor/bin/hw/android.hardware.lights-service.qti
 vendor/etc/init/android.hardware.lights-qti.rc
-vendor/etc/vintf/manifest/android.hardware.lights-qti.xml
+-vendor/etc/vintf/manifest/android.hardware.lights-qti.xml
 vendor/lib/hw/lights.kona.so
 vendor/lib64/hw/lights.kona.so
 
@@ -1652,7 +1652,7 @@ vendor/etc/libnfc-qrd-SN100.conf
 vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf
 
 # PASR
-vendor/app/pasrservice/pasrservice.apk
+-vendor/app/pasrservice/pasrservice.apk
 vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service
 vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc
 vendor/lib/hw/vendor.qti.power.pasrmanager@1.0-impl.so
@@ -1749,7 +1749,7 @@ vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0.so
 
 # Radio
-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
+-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/lib/vendor.qti.hardware.radio.am@1.0.so
 system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 system_ext/lib/vendor.qti.hardware.radio.lpa@1.0.so
@@ -1784,8 +1784,8 @@ system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so
 system_ext/lib64/vendor.qti.hardware.radio.uim@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.uim@1.1.so
 system_ext/lib64/vendor.qti.hardware.radio.uim@1.2.so
-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-vendor/app/IWlanService/IWlanService.apk
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrild
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
@@ -1990,7 +1990,7 @@ system_ext/lib64/vendor.qti.ims.rcsuce@1.1.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
 system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
-system_ext/priv-app/ims/ims.apk
+-system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -2272,7 +2272,7 @@ vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Soter (Tencent)
-app/SoterService/SoterService.apk
+-app/SoterService/SoterService.apk
 
 # Soundtrigger
 system_ext/lib/vendor.qti.voiceprint@1.0.so
@@ -2293,14 +2293,14 @@ vendor/bin/thermal-engine
 vendor/etc/init/android.hardware.thermal@2.0-service.qti.rc
 vendor/etc/init/init_thermal-engine.rc
 vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml
-vendor/lib/libthermalclient.so
-vendor/lib64/libthermalclient.so
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
 
 # Thermal configs
 vendor/etc/thermal-engine.conf
 
 # Time services
-vendor/app/TimeService/TimeService.apk
+-vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib/libtime_genoff.so
@@ -2648,7 +2648,7 @@ system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so
 system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 system_ext/priv-app/WfdService/lib/arm64/libwfdnative.so
-system_ext/priv-app/WfdService/WfdService.apk
+-system_ext/priv-app/WfdService/WfdService.apk
 vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
@@ -2685,10 +2685,10 @@ vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 
 # Miscellaneous
-vendor/app/CACertService/CACertService.apk
-vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
-vendor/app/QFingerprintService/QFingerprintService.apk
-vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk
+-vendor/app/CACertService/CACertService.apk
+-vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
+-vendor/app/QFingerprintService/QFingerprintService.apk
+-vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk
 vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/vendor.zui.hardware.ifaa@1.0-service
 vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
