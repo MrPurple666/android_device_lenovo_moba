@@ -8,6 +8,11 @@ BOARD_VENDOR := lenovo
 
 DEVICE_PATH := device/lenovo/moba
 
+# For building
+ALLOW_MISSING_DEPENDENCIES := true
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # AVB
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
@@ -68,7 +73,7 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 
 BOARD_RAMDISK_OFFSET := 0x01000000
 
-TARGET_KERNEL_CONFIG := moba_defcofig
+TARGET_KERNEL_CONFIG := vendor/kona_defcofig
 TARGET_KERNEL_SOURCE := kernel/lenovo/moba
 
 # Kernel - prebuilt
