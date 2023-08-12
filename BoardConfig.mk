@@ -12,6 +12,7 @@ DEVICE_PATH := device/lenovo/moba
 ALLOW_MISSING_DEPENDENCIES := true
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 # AVB
 BOARD_AVB_ENABLE := true
@@ -73,7 +74,7 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 
 BOARD_RAMDISK_OFFSET := 0x01000000
 
-TARGET_KERNEL_CONFIG := vendor/kona_defcofig
+TARGET_KERNEL_CONFIG := vendor/moba_defcofig
 TARGET_KERNEL_SOURCE := kernel/lenovo/moba
 
 # Kernel - prebuilt
@@ -135,6 +136,7 @@ BOARD_BUILD_VENDOR_RAMDISK_IMAGE := true
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
+
 # selinux permissive for testing 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
