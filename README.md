@@ -1,4 +1,4 @@
-# Device Recovery Tree for the Lenovo Legion pro (5G)
+# Device Tree for the Lenovo Legion pro (5G)
 
 The lenovo Legion Pro 5G (codenamed _"moba"_) is a high-end smartphone from lenovo. It was announced and released in July 2020..
 
