@@ -35,6 +35,10 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
+# Apex libraries
+PRODUCT_HOST_PACKAGES += \
+    libandroidicu
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
